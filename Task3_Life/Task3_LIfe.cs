@@ -260,21 +260,24 @@ namespace GameOfLife
 
     }
 
-    internal class Program
+    internal class Task3_LIfe
     {
 
         // Ограничения игры
         private const int Heigth = 10;
         private const int Width = 30;
-        private const uint MaxRuns = 1000;
 
         private static void Main(string[] args)
         {
             LifeSimulation sim = new LifeSimulation(Heigth, Width);
 
+            Console.Write("Количество поколений: ");
+            uint MaxRuns = uint.Parse(Console.ReadLine());
+            Console.Write("Шаг отображения поколения: ");
+            int stepDisplay = int.Parse(Console.ReadLine());
+
             int runs = 0;
             int step = 0;
-            int stepDisplay = 100;
 
             while (runs <= MaxRuns)
             {
@@ -283,7 +286,7 @@ namespace GameOfLife
                     Console.WriteLine($"Поколение {runs + 1}\n");
                     sim.DrawAndGrow(true);
                 }
-                else if (step % (stepDisplay - 1) == 0)
+                else if ((step + 1) % stepDisplay == 0)
                 {
                     Console.WriteLine($"\nПоколение {runs + 1}\n");
                     sim.DrawAndGrow(true);

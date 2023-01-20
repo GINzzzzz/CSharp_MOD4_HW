@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\inven\\OneDrive\\Skillbox\\C# Developer\\HW for module C# Dev\\GINzzzzz\\CSharp_Homeworks\\C_SharpDev_MOD4_HW\\Task2_MatrixSum\\Task2_MatrixSum.csproj",
+      "projectUniqueName": "C:\\Users\\inven\\Source\\Repos\\GINzzzzz\\CSharp_MOD4_HW\\Task2_MatrixSum\\Task2_MatrixSum.csproj",
       "projectName": "Task2_MatrixSum",
-      "projectPath": "C:\\Users\\inven\\OneDrive\\Skillbox\\C# Developer\\HW for module C# Dev\\GINzzzzz\\CSharp_Homeworks\\C_SharpDev_MOD4_HW\\Task2_MatrixSum\\Task2_MatrixSum.csproj",
+      "projectPath": "C:\\Users\\inven\\Source\\Repos\\GINzzzzz\\CSharp_MOD4_HW\\Task2_MatrixSum\\Task2_MatrixSum.csproj",
       "packagesPath": "C:\\Users\\inven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\inven\\OneDrive\\Skillbox\\C# Developer\\HW for module C# Dev\\GINzzzzz\\CSharp_Homeworks\\C_SharpDev_MOD4_HW\\Task2_MatrixSum\\obj\\",
+      "outputPath": "C:\\Users\\inven\\Source\\Repos\\GINzzzzz\\CSharp_MOD4_HW\\Task2_MatrixSum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,1 +1,10 @@
 /.vs
+/Task1_Matrix/bin/Debug/net6.0
+/Task2_MatrixSum/bin/Debug/net6.0
+/Task3_Life/bin/Debug/net6.0
+/Task1_Matrix/obj/Debug/net6.0
+/Task1_Matrix/obj/Release/net6.0
+/Task2_MatrixSum/obj/Debug/net6.0
+/Task2_MatrixSum/obj/Release/net6.0
+/Task3_Life/obj/Debug/net6.0
+/Task3_Life/obj/Release/net6.0
